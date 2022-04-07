@@ -1,6 +1,6 @@
 using UniSpyServer.Servers.QueryReport.Entity.Exception;
-using UniSpyServer.Servers.QueryReport.Entity.Structure.Request;
-using UniSpyServer.Servers.QueryReport.Handler.CmdHandler;
+using UniSpyServer.Servers.QueryReport.Entity.Structure.Request.V2;
+using UniSpyServer.Servers.QueryReport.Handler.CmdHandler.V2;
 using UniSpyServer.UniSpyLib.Abstraction.Interface;
 using UniSpyServer.UniSpyLib.Entity.Structure;
 

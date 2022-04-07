@@ -1,6 +1,6 @@
 using System.Linq;
 using UniSpyServer.Servers.QueryReport.Entity.Structure.Redis.GameServer;
-using UniSpyServer.Servers.QueryReport.Entity.Structure.Request;
+using UniSpyServer.Servers.QueryReport.Entity.Structure.Request.V2;
 using UniSpyServer.Servers.ServerBrowser.Abstraction.BaseClass;
 using UniSpyServer.Servers.ServerBrowser.Entity.Contract;
 using UniSpyServer.Servers.ServerBrowser.Entity.Exception;

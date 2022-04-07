@@ -1,6 +1,6 @@
 using UniSpyServer.Servers.QueryReport.Abstraction.BaseClass;
 
-namespace UniSpyServer.Servers.QueryReport.Entity.Structure.Response
+namespace UniSpyServer.Servers.QueryReport.Entity.Structure.Response.V2
 {
     public sealed class KeepAliveResponse : ResponseBase
     {

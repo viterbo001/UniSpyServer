@@ -1,12 +1,12 @@
 using System;
 using System.Linq;
 using UniSpyServer.Servers.QueryReport.Abstraction.BaseClass;
-using UniSpyServer.Servers.QueryReport.Entity.contract;
+using UniSpyServer.Servers.QueryReport.Entity.Contract;
 using UniSpyServer.Servers.QueryReport.Entity.Enumerate;
 using UniSpyServer.Servers.QueryReport.Entity.Exception;
 using UniSpyServer.UniSpyLib.Abstraction.Interface;
 
-namespace UniSpyServer.Servers.QueryReport.Handler.CmdHandler
+namespace UniSpyServer.Servers.QueryReport.Handler.CmdHandler.V2
 {
     [HandlerContract(RequestType.KeepAlive)]
     public sealed class KeepAliveHandler : CmdHandlerBase

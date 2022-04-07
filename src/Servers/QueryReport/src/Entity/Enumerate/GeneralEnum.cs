@@ -10,7 +10,7 @@ namespace UniSpyServer.Servers.QueryReport.Entity.Enumerate
         AddError = 0x04,
         Echo = 0x02,
         KeepAlive = 0x08,
-        AvaliableCheck = 0x09
+        AvailableCheck = 0x09
     }
     public enum ResponseType : byte
     {

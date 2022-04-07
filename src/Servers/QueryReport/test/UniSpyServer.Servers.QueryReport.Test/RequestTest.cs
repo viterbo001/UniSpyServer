@@ -1,12 +1,12 @@
 using UniSpyServer.Servers.QueryReport.Entity.Enumerate;
-using UniSpyServer.Servers.QueryReport.Entity.Structure.Request;
+using UniSpyServer.Servers.QueryReport.Entity.Structure.Request.V2;
 using Xunit;
 namespace UniSpyServer.Servers.UniSpyServer.Servers.QueryReport.Test
 {
     public class RequestTest
     {
         [Fact]
-        public void AvaliableTest()
+        public void AvailableTest()
         {
             var rawRequest = new byte[]{
                 0x09,//packet type
@@ -15,9 +15,9 @@ namespace UniSpyServer.Servers.UniSpyServer.Servers.QueryReport.Test
                 0x67, 0x61, 0x6D, 0x65 ,0x73, 0x70, 0x79,//gamename
                 0x00
             };
-            var request = new AvaliableRequest(rawRequest);
+            var request = new AvailableRequest(rawRequest);
             request.Parse();
-            Assert.Equal(RequestType.AvaliableCheck, request.CommandName);
+            Assert.Equal(RequestType.AvailableCheck, request.CommandName);
             Assert.Equal((uint)0, request.InstantKey);
         }
         [Fact]
